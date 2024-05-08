@@ -17,7 +17,7 @@ const articles = await queryContent("blog").find();
   font-family: var(--siteFont);
 }
 .articleLink {
-  margin-bottom: 10px;
+  margin-bottom: 20px;
   &:hover {
     text-decoration: underline;
   }
