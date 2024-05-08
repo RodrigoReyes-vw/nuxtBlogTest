@@ -4,6 +4,7 @@ const articles = await queryContent("blog").find();
 </script>
 <template>
   <main :class="$style.container">
+    <h1>I am the home page</h1>
     <ol :class="['vw-grid']">
       <li :class="$style.articleLink" v-for="article in articles">
         <NuxtLink :to="article._path">{{ article.title }}</NuxtLink>
